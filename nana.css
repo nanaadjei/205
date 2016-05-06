@@ -1,0 +1,252 @@
+{
+margin:0px;
+padding:0px;
+}
+
+.img_center{
+  display: block;
+  margin:0 auto;
+}
+
+.video_center{
+  display: block;
+  margin:0 auto;
+}
+
+body{
+background-image: url("images/MarleyTree.jpg");
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+font: bold 28px Tahoma;
+color: #FF4000;
+text-align: center;
+}
+
+h2{
+font: bold 22px Tahoma;
+Color: red;
+text-align: center;
+}
+
+h3{
+font: bold 20px Tahoma;
+Color: red;
+text-align: center;
+}
+
+p{
+    font:  16px Tahoma;
+}
+
+}
+header, section, footer, aside, nav, article, hgroup{
+display:block;
+}
+
+body{
+width:100%;
+display:-webkit-box;
+-webkit-box-pack: center;
+}
+
+#big_wrapper{
+max-width:1000px;
+margin:30px 30px;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+}
+
+#top_header{
+border:0px blue;
+padding:20px;
+}
+
+form {
+    float: cente;
+position: center;
+}
+
+
+
+
+}
+
+div.background {
+  background: inherit;
+ 
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+nav {
+        text-align: center;
+        font-family:tahoma;
+        font-size: 22px;
+        height: 60px;
+        text-shadow: 1px 2px 3px;
+        letter-spacing: 3px;
+        word-spacing: 25px;
+        color: #000000;
+        background-color: inherit;
+       }
+  
+ul {
+    list-style-type: none;
+    margin: 15;
+    padding: 10;
+    font:  16px Tahoma;
+    }
+      
+li {
+    display: inline;
+    
+    }
+  
+  
+.navbar-default {
+    background-color: white;
+    border-color: #6699FF;
+  }
+.navbar-default .navbar-nav > li > a {
+      color: black; 
+  }
+  
+  input[type=text] {
+     border: 2px solid blue;
+    border-radius: 4px;
+    background-color: #white;
+    color: black;
+    
+    
+    input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=ssubmit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form{
+  float:left;
+  font-family: tahoma
+  font-size:16px;
+   
+}
+#parent {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form-wrapper {
+width: 200px;
+padding: 10px;
+margin: -240px auto 50px auto;
+margin-right: -5px;
+background: #444;
+background: rgba(0,0,0,.2);
+border-radius: 10px;
+box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+
+.form-wrapper input {
+width: 100px;
+height: 10px;
+padding: 5px 5px;
+float: left; 
+font: 10px Tahoma;
+border: 0;
+background: #eee;
+border-radius: 1px 0 0 1px; 
+}
+
+.form-wrapper input:focus {
+outline: 0;
+background: #fff;
+box-shadow: 0 0 1px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+} 
+
+.form-wrapper button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 20px;
+width: 80px;
+font: bold 9px 'lucida sans', 'trebuchet MS', 'Tahoma';
+color: #fff;
+text-transform: uppercase;
+background: #8A0651;
+border-radius: 0 3px 3px 0; 
+text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+} 
+
+.form-wrapper button:hover{ 
+background: #8A0651;
+} 
+
+.form-wrapper button:active,
+.form-wrapper button:focus{ 
+background: #8A0651;
+outline: 0; 
+}
+
+.form-wrapper button:hover:before{
+border-right-color: whitesmoke;
+}
+
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+border-right-color: whitesmoke;
+} 
+
+.form-wrapper button::-moz-focus-inner { 
+border: 0;
+padding: 0;
+} 
